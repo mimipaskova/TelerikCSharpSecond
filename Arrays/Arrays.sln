@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07SelectionSort", "07Select
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08SequenceMaxSum", "08SequenceMaxSum\08SequenceMaxSum.csproj", "{98F8D51E-3463-4F5C-92F6-7781A23F1FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09CountingSort", "09CountingSort\09CountingSort.csproj", "{F028D372-DB16-40B7-8997-66260AFCD2F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{98F8D51E-3463-4F5C-92F6-7781A23F1FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F8D51E-3463-4F5C-92F6-7781A23F1FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F8D51E-3463-4F5C-92F6-7781A23F1FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F028D372-DB16-40B7-8997-66260AFCD2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F028D372-DB16-40B7-8997-66260AFCD2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F028D372-DB16-40B7-8997-66260AFCD2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F028D372-DB16-40B7-8997-66260AFCD2F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
