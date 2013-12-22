@@ -10,37 +10,60 @@ namespace _08SequenceMaxSum
     {
         static void Main(string[] args)
         {
-            int[] array = new int[]{2, 3,-6,-1,2,-1,6,4,-8,8};
+            int[] array = new int[]{4,-8,8};
 
-            int sum = 0;
+          //  int sum = 0;
+         //   int s = int.MinValue;
 
-            int s = int.MinValue;
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    for (int j = i; j < array.Length-1; j++)
+            //    {
 
-            for (int i = 0; i < array.Length; i++)
-            {
-                for (int j = i; j < array.Length-1; j++)
-                {
-                    if (s <= array[j])
+                    int sum = array[0], max_ending_here = array[0];
+
+                   
+                    for ( int i = 1; i < array.Length; i++)
                     {
-                        sum += array[j];
-                        s = array[j];
-                    }
-                    else if (array[j]<=0 && array[j + 1] > array[j])
-                    {
-                        sum += array[j]+array[j+1];
-                        s = array[j+1];
-                        j++;
-                    }
-                    else
-                    {
-                        sum = 0;
-                        break;
-                    }
-                }
-            }
+                        if (max_ending_here < 0)
+                        {
+                            max_ending_here = array[i];
+                        }
+                        else
+                        {
+                            max_ending_here += array[i];
+                        }
 
-            Console.WriteLine(sum);
-            Console.ReadLine();
+                       if (max_ending_here >= sum)
+                        {
+                            sum = max_ending_here;
+
+                        }
+                    }
+                    Console.WriteLine(sum);
+                    Console.ReadLine();
+
+                    //if (s <= array[j])
+                    //{
+                    //    sum += array[j];
+                    //    s = array[j];
+                    //}
+                    //else if (array[j]<=0 && array[j + 1] > array[j])
+                    //{
+                    //    sum += array[j]+array[j+1];
+                    //    s = array[j+1];
+                    //    j++;
+                    //}
+                    //else
+                    //{
+                    //    sum = 0;
+                    //    break;
+                    //}
+             //   }
+           // }
+
+          //  Console.WriteLine(sum);
+           
         }
     }
 }
