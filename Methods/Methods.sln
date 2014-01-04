@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01MethodName", "01MethodName\01MethodName.csproj", "{8808F332-85A0-4222-BFE9-65F74E6F64B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02MaxNumberFrom3Numbers", "02MaxNumberFrom3Numbers\02MaxNumberFrom3Numbers.csproj", "{EF0C1216-772C-4296-B2BC-791F48659E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03LastDigit", "03LastDigit\03LastDigit.csproj", "{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{8808F332-85A0-4222-BFE9-65F74E6F64B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8808F332-85A0-4222-BFE9-65F74E6F64B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8808F332-85A0-4222-BFE9-65F74E6F64B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0C1216-772C-4296-B2BC-791F48659E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0C1216-772C-4296-B2BC-791F48659E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0C1216-772C-4296-B2BC-791F48659E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0C1216-772C-4296-B2BC-791F48659E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
