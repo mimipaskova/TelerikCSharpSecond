@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02MaxNumberFrom3Numbers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03LastDigit", "03LastDigit\03LastDigit.csproj", "{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04HowTimesNumberAppears", "04HowTimesNumberAppears\04HowTimesNumberAppears.csproj", "{EE7044A9-904C-41E4-B999-4A534A068378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F4FBCE-AFEB-4358-8699-234EFB77CF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7044A9-904C-41E4-B999-4A534A068378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7044A9-904C-41E4-B999-4A534A068378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7044A9-904C-41E4-B999-4A534A068378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7044A9-904C-41E4-B999-4A534A068378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
