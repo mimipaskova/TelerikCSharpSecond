@@ -18,13 +18,13 @@ namespace _04HowTimesNumberAppears
 
             for (int i = 0; i < masiv.Length; i++)
             {
-                for (int j = 0; j < masiv.Length; j++)
+                for (int j = 0; j < number.Length; j++)
                 {
 
 
                     if (masiv[i] == j)
                     {
-                        number[i]++;
+                        number[j]++;
                     }
                 }
             }
@@ -33,7 +33,7 @@ namespace _04HowTimesNumberAppears
             {
                 if (myNumber == i)
                 {
-                    Console.WriteLine(number[i+1]);
+                    Console.WriteLine(number[i]);
                 }
                 
             }
